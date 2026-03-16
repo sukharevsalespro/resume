@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JSFiddle fox8wrnu</title>
+
+  <style>
+    
+  </style>
+
+  
+</head>
+<body>
+  <style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #FFF5EE; font-family: Arial, sans-serif; color: #2D1A0E; padding: 20px; }
+.page { max-width: 595px; margin: 0 auto; background: #FFF5EE; padding: 30px; }
+.header { text-align: center; margin-bottom: 20px; font-size:11px; color:#C94A0A; letter-spacing:3px; text-transform:uppercase; font-weight:bold; }
+.photo-block { display: flex; align-items: center; gap: 20px; margin-bottom: 20px; background: #FDE8D8; border-radius: 12px; padding: 16px; border: 2px solid #E8520A; }
+.photo-block img { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #E8520A; }
+.name-block h1 { font-size: 20px; color: #C94A0A; font-weight: bold; }
+.name-block h2 { font-size: 12px; color: #7A3A10; margin-top: 5px; }
+.section { margin-bottom: 18px; }
+.section-title { background: #E8520A; color: #fff; font-size: 11px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; padding: 8px 14px; border-radius: 6px; margin-bottom: 10px; }
+.about-text { font-size: 13px; line-height: 1.6; color: #3D1F0A; padding: 12px; background: #FDE8D8; border-radius: 8px; border-left: 4px solid #E8520A; }
+.event-item { background: #fff; border-radius: 8px; padding: 10px 14px; margin-bottom: 8px; border-left: 4px solid #E8520A; box-shadow: 0 1px 4px rgba(200,70,10,0.1); }
+.event-name { font-size: 14px; font-weight: bold; color: #2D1A0E; }
+.event-topic { font-size: 12px; color: #7A3A10; margin-top: 3px; }
+.event-link { display: inline-block; margin-top: 5px; font-size: 11px; color: #E8520A; text-decoration: none; font-weight: bold; }
+.event-link:hover { text-decoration: underline; }
+.topics { display: flex; flex-wrap: wrap; gap: 8px; }
+.topic-tag { background: #FDE8D8; color: #C94A0A; font-size: 11px; padding: 5px 10px; border-radius: 20px; border: 1px solid #E8520A; font-weight: bold; }
+.contacts { display: flex; flex-direction: column; gap: 8px; }
+.contact-item { font-size: 13px; }
+.contact-item a { color: #C94A0A; text-decoration: none; font-weight: bold; }
+.contact-item a:hover { text-decoration: underline; }
+</style>
+<div class="page">
+  <div class="header">Резюме спикера</div>
+  <div class="photo-block">
+    <img src="https://t.me/i/userpic/320/valentina_pro_marketing.jpg" alt="Валентина Сухарева" onerror="this.src='https://ui-avatars.com/api/?name=VS&background=E8520A&color=fff&size=110'">
+    <div class="name-block">
+      <h1>ВАЛЕНТИНА СУХАРЕВА</h1>
+      <h2>Маркетолог • Наставник по личному бренду<br>Организатор онлайн нетворкингов</h2>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-title">О спикере</div>
+    <div class="about-text">Маркетолог с многолетним опытом. Наставник по продвижению и личному бренду. Организатор онлайн нетворкингов. Проводник Т-игр. Помогает экспертам и предпринимателям продумать позиционирование, создать продукт и увеличить доход через проявленность и личный бренд.</div>
+  </div>
+  <div class="section">
+    <div class="section-title">Выступления на мероприятиях</div>
+    <div class="event-item">
+      <div class="event-name">Бизнес-клуб «Сицилия»</div>
+      <div class="event-topic">Тема: Маркетинг и личный бренд для бизнеса</div>
+      <a class="event-link" href="https://www.instagram.com/reels/DSuH6jjDDQ7/" target="_blank">Смотреть видео →</a>
+    </div>
+    <div class="event-item">
+      <div class="event-name">Инвестиционно-строительный форум</div>
+      <div class="event-topic">Тема: Привлечение инвестиций через личный бренд</div>
+      <a class="event-link" href="https://t.me/valentina_pro_marketing/2356" target="_blank">Пост в Telegram →</a>
+    </div>
+    <div class="event-item">
+      <div class="event-name">Онлайн нетворкинг для экспертов</div>
+      <div class="event-topic">Тема: Проявленность и нетворкинг как инструмент продаж</div>
+      <a class="event-link" href="https://www.instagram.com/reels/CxCujRlgTE-/" target="_blank">Смотреть видео →</a>
+    </div>
+    <div class="event-item">
+      <div class="event-name">Женский бизнес-форум</div>
+      <div class="event-topic">Тема: Личный бренд и продажи через доверие</div>
+      <a class="event-link" href="https://www.instagram.com/p/Cocl0MmImEX/" target="_blank">Смотреть фото →</a>
+    </div>
+    <div class="event-item">
+      <div class="event-name">ProПродажи на миллион</div>
+      <div class="event-topic">Тема: Стратегия продаж через личный бренд</div>
+      <a class="event-link" href="https://www.instagram.com/reels/CujbuEyAiBt/" target="_blank">Смотреть видео →</a>
+    </div>
+    <div class="event-item">
+      <div class="event-name">Клуб деловых женщин «Сицилия»</div>
+      <div class="event-topic">Тема: Маркетинг в реальных условиях</div>
+      <a class="event-link" href="https://www.instagram.com/reels/CmV5RDaARUu/" target="_blank">Смотреть видео →</a>
+    </div>
+    <div class="event-item">
+      <div class="event-name">Бизнес-встреча для предпринимателей</div>
+      <div class="event-topic">Тема: Контент-стратегия и продвижение в соцсетях</div>
+      <a class="event-link" href="https://www.instagram.com/reels/C9raJZMAZ3L/" target="_blank">Смотреть видео →</a>
+    </div>
+    <div class="event-item">
+      <div class="event-name">Деловой обед с клубом «Сицилия»</div>
+      <div class="event-topic">Тема: Нетворкинг и деловые связи</div>
+      <a class="event-link" href="https://www.instagram.com/p/CmV61nUIHSA/" target="_blank">Смотреть фото →</a>
+    </div>
+    <div class="event-item">
+      <div class="event-name">Эксперт-шоу / Публичное выступление</div>
+      <div class="event-topic">Тема: Как стать заметным экспертом</div>
+      <a class="event-link" href="https://www.instagram.com/reels/CwnTScYttxN/" target="_blank">Смотреть видео →</a>
+    </div>
+    <div class="event-item">
+      <div class="event-name">Мастер-класс для экспертов</div>
+      <div class="event-topic">Тема: Личный бренд и монетизация экспертности</div>
+      <a class="event-link" href="https://www.instagram.com/reels/Ck71Gr-AD1v/" target="_blank">Смотреть видео →</a>
+    </div>
+    <div class="event-item">
+      <div class="event-name">Интервью / Медиавыступление</div>
+      <div class="event-topic">Тема: Личный бренд и привлечение инвестиций</div>
+      <a class="event-link" href="https://www.instagram.com/p/DRJ5ZiUjQ6b/" target="_blank">Смотреть →</a>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-title">Темы выступлений</div>
+    <div class="topics">
+      <div class="topic-tag">Личный бренд эксперта</div>
+      <div class="topic-tag">Привлечение инвестиций через бренд</div>
+      <div class="topic-tag">Маркетинг в соцсетях</div>
+      <div class="topic-tag">Продажи через доверие</div>
+      <div class="topic-tag">Нетворкинг как инструмент</div>
+      <div class="topic-tag">Контент-стратегия</div>
+      <div class="topic-tag">Проявленность и видимость</div>
+      <div class="topic-tag">Позиционирование эксперта</div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-title">Контакты</div>
+    <div class="contacts">
+      <div class="contact-item"><a href="https://t.me/valentina_promarketing" target="_blank">Telegram: @valentina_promarketing</a></div>
+      <div class="contact-item"><a href="https://t.me/valentina_pro_marketing" target="_blank">Канал: @valentina_pro_marketing</a></div>
+    </div>
+  </div>
+</div>
+
+  <script>
+    
+  </script>
+</body>
+</html>
